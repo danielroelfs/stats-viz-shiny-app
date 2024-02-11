@@ -1,0 +1,24 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&family=Roboto:wght@300;500;900&display=swap');*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 28pt;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.1;
+  color: #BD2D87;
+}
+
+h3 {
+  color: #262626;
+  padding-top: 2em;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fefefe;
+}
