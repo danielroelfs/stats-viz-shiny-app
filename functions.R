@@ -180,8 +180,7 @@ plot_normal_distribution <- function(input) {
         xend = seq(3) * input$norm_sd,
         y = seq(0.45, 0.65, 0.1),
         percs = c(65, 95, 99),
-        sds = seq(3),
-        label = str_glue("{percs}% of the data lies<br>between {sds} SD")
+        label = str_glue("{percs}% of the data lies<br>between {xend} SD")
     )
 
     plot <- ggplot(data = tibble(x = 3.2 * input$norm_sd * c(-1, 1)), aes(x)) +
